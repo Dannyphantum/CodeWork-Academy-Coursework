@@ -1,0 +1,30 @@
+Initialize roofLength to 0
+Initialize roofWidth to 0
+Initialize rainInches to 0
+
+DOWHILE roofLength is not a positive number 
+	DISPLAY "Enter Roof Length", roofLength
+LOOP
+
+DOWHILE roofWidth is not a positive number
+	DISPLAY "Enter Roof Width", roofWidth
+LOOP
+
+DOWHILE rainInches is not a positive number
+	DISPLAY "Enter Inches of rainfall", rainInches
+LOOP
+
+(roofLength * 12) = roofLength
+
+(roofWidth * 12) = roofWidth
+
+roofLength * roofWidth = roofArea
+
+roofArea * rainInches = rainVolume
+
+rainVolume / 231 = rainVolume
+
+DISPLAY "The gallons of rain that fell: ", rainVolume
+
+ 
+
